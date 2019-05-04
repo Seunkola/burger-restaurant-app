@@ -29,14 +29,14 @@ class CoverImage extends Component {
                             <ul>
                                 <li className="side-menu">
                                     <a href="#" onClick={this.toggleSideNav}>
-                                        <i class="fa fa-bars"></i>
+                                        <i className="fa fa-bars"></i>
                                     </a>
                                 </li>
                             </ul>
                         </div>        
                         <div className="navbar-header">
                             <a className="navbar-brand" href="#">
-                                <img src={logo} class="logo" alt="" />
+                                <img src={logo} className="logo" alt="" />
                             </a>
                         </div>
                     </div>

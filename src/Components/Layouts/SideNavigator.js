@@ -20,12 +20,12 @@ class SideNavigator extends Component {
             <div className={status}>
                  <a 
                     href="#" 
-                    class="close-side"
+                    className="close-side"
                     onClick={this.closeNav()}>
-                    <i class="fa fa-times"></i>
+                    <i className="fa fa-times"></i>
                 </a>
                  <div className="wideget">
-                    <h6 class="title">Menu</h6>
+                    <h6 className="title">Menu</h6>
                     <ul id="menu" className="link">
                         <li>
                             <Link to={{
